@@ -1,11 +1,14 @@
-def wrap_text(wrapper,string)
- puts "#{wrapper}#{string}#{wrapper.reverse}"
+#stage1 = wrap_text("New Message", "###")
+#stage2 = wrap_text(stage1, "===")
+#stage3 = wrap_text(stage2,"---")
+
+
+def wrap_text(string, wrapper)
+ return "#{wrapper}#{string}#{wrapper}"
 end
 
-wrap_text("---###===", "New Message")
+stage1 = wrap_text("New Message", "###")
+stage2 = wrap_text(stage1, "===")
+stage3 = wrap_text(stage2, "---")
 
-#wrap_text(string)
-#string, "---###==="
-#puts "#{string}"
-
-#wrap_text("new message")
+puts stage3
