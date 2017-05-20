@@ -42,9 +42,9 @@ total_sum(students)
 
 
 staff = {
-  :cohort1 => 5,
-  :cohort2 => 10,
-  :cohort3 => 6,
+  :cohortstaff1 => 5,
+  :cohortstaff2 => 10,
+  :cohortstaff3 => 6,
 
 }
 
